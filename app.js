@@ -1,4 +1,4 @@
-// chapter  no 1 "VARIABLE NAME LEGAL AND ILLEGAL"
+                    // chapter  no 4 "VARIABLE NAME LEGAL AND ILLEGAL"(class work)
 
 // q:1
 var  firstName ="Hello world"
@@ -32,7 +32,7 @@ document.write("<br>d: variables names are case sensitive.")
 // e
 document.write("<br>e: variable names should no be JS keywords.")
 
-// chapter no 5  MATH EXPRESSIONS
+                  // chapter no 5  MATH EXPRESSIONS
 // 1
 document.write("<br><h4>MATH EXPRESSIONS</h4>")
 var number = 3
@@ -112,5 +112,74 @@ document.write("<br>","<h4>The Geometrizer</h4>")
 var radius= 20
 document.write("<br>","Radius of a circle: 20","<br> The circumference is:125.67999","<br> The area is:1256.8")
 
-// chapter no 6 MATH EXPRESSIONS
+                // chapter no 6 MATH EXPRESSIONS
 document.write("<br>","<h3>MATH EXPRESSIONS</h3>")
+
+// 1
+document.write("1) Result","<br>","The value of a is:  20")
+var a = " 20"
+document.write("<br>","<br>"," The value of ++a is:", ++a)
+document.write("<br>","Now the value of a is: 21")
+var a = " 21"
+document.write("<br>","<br>"," The value of ++a is:  21")
+document.write("<br>","Now the value of a is:", ++a)
+var a=" -21"
+document.write("<br>","<br>","The value of -a is: 21")
+document.write("<br>","Now the value of a is:", -a)
+var a ="21"
+document.write("<br>","<br>","The value of a-- is: 21")
+document.write("<br>","Now the value of a is:",--a)
+
+//2
+ var a =" 2", b= " 1"
+ document.write("<br>","<br>","ques 2)","<br>","a is:2","<br>","b is:1","<br>","<br>","Result")
+ document.write("<br>","--a;","&nbsp"," a is: ", --a)
+ document.write("<br>","--a -  --b;","&nbsp","  is: ", --a - --b)
+ document.write("<br>","--a -  --b + ++b;","&nbsp"," is: ", --a - --b + ++b)
+ document.write("<br>","--a -   --b + ++b + b--; ","&nbsp"," is: ", --a - --b + ++b + b-- )
+
+// 5
+document.write("<br>,<h3> 5) Table of 5 </h3>")
+var table = "5"
+document.write("<br>", "5 * 1 =" + "&nbsp",table + 
+"<br>", "5 * 2 =" + "&nbsp",  2* table+
+"<br>", "5 * 3 =" +"&nbsp", 3* table +
+"<br>", "5 * 4 =" +"&nbsp", 4* table+
+"<br>", "5 * 5 =" +"&nbsp", 5* table+
+"<br>", "5 * 6 =" + "&nbsp",6* table+
+"<br>", "5 * 7 =" +"&nbsp",7* table+
+"<br>", "5 * 8 =" +"&nbsp", 8* table+
+"<br>", "5 * 9 =" + "&nbsp",9* table+
+"<br>", "5 * 10 =" +"&nbsp", 10* table)
+
+                  // chapter no 6 (Maths Expression II) (Home work)
+
+// 1
+var x= "x+1"
+var $20 ="20"
+
+// 2
+document.write("<br>","<br>", " Ques 2)", "<br>", "x = 100, fastest way to reduce is to 99")
+var x = " 100"
+document.write("<br>","--x is shortest way to ", "&nbsp",--x)
+
+// 3
+document.write("<br>","<br>"," Ques 3)","<br>","var x = 50;","<br>", "var y = x++;","<br>",
+"<br>","What is the value of y?")
+var x = "50"
+document.write("<br>","ans is: 50")
+
+// 4
+document.write("<br>","<br>"," Ques 4)","<br>","var  y= 50;","<br>", "var z = --y;","<br>",
+"<br>","What is the value of z?")
+var y = "50"
+document.write("<br>","ans is: 49")
+
+// 5
+
+// 6
+// 7
+
+
+
+
