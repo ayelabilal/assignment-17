@@ -51,11 +51,6 @@ var number6 = 5
 document.write( "<br>", "<br>", number5 * number6)
 document.write( "<br> multiply 3 and 5 answer will be 15")
 
-// 3
-// a
-
-// b
-
 // 4
 var movieTicket= "600"
 var buy5 = "5"
@@ -76,10 +71,7 @@ document.write("<br>", "4 * 1 =" +table +
 "<br>", "4 * 9 =" + 9* table+
 "<br>", "4 * 10 =" + 10* table)
 
-// 6
-// // a
-// var celsiusTemperature =  "25"
-//  document.write(25,"<sup>0</sup>","C is 77")
+
 
 // 7
 document.write("<br><h4>Shopping Cart</h4>")
@@ -98,8 +90,6 @@ document.write("<br> item 2 ",  priceItem2 * orderQty2 + shippingCharges)
 document.write("<br> <h4>Marks Sheet</h4>")
 document.write("Total marks:90 <br> Marks obtained:804 <br>percentage:82.04%")
 
-// 9
-// document.write("<br> <h4>Currency in PKR</h4> ")
 
 // 11
 document.write("<br>","<h4>The Age Calculator</h4>")
@@ -175,10 +165,83 @@ document.write("<br>","<br>"," Ques 4)","<br>","var  y= 50;","<br>", "var z = --
 var y = "50"
 document.write("<br>","ans is: 49")
 
+                    // chapter no 7 "Math Expression III"
+document.write("<br>","<h3>chapter no 7 Math Expression III</h3>")
+
+// 1
+document.write("<br>","<br>","Q:1 var calculatedNum = 2 + (2 * 6);")
+var calculatedNum =  2+(2*6)
+document.write("<br>","Ans: ",calculatedNum)
+
+// 2
+document.write("<br>","<br>","Q:2 var calculatedNum = (2 + 2) * (4 + 2);")
+var calculatedNum = (2 + 2) * (4 + 2);
+document.write("<br>","Ans: ",calculatedNum)
+
+// 3
+document.write("<br>","<br>","Q:3 var calculatedNum = (2 + 2) * 6;")
+var calculatedNum = (2 + 2) * 6;
+document.write("<br>","Ans: ",calculatedNum)
+
+// 4
+document.write("<br>","<br>","Q:4 var calculatedNum = ((2 + 2) * 4) + 2; ")
+var calculatedNum = ((2 + 2) * 4) + 2;
+document.write("<br>","Ans: ",calculatedNum)
+
 // 5
+document.write("<br>","<br>","Q:5  2 + 2 * 4 + 10, clarified with parentheses, producing 56.")
+document.write("<br>","Ans: (2 + 2) * (4 + 10)")
 
 // 6
+document.write("<br>","<br>","Q:6  2 + 2 * 4 + 10, clarified with parentheses, producing 20. ")
+document.write("<br>","Ans: (2 + (2 * 4)) + 10")
+
 // 7
+document.write("<br>","<br>","Q:7 4 / 2 * 4,  clarified with parentheses, producing 5.")
+// document.write("<br>","Ans: 4 / 2 * 4, ")
+
+// Chapter 8 "Concatenating Text Strings"
+document.write("<br>", "<<br>","<h3>Chapter 8 Concatenating Text Strings</h3>")
+
+// 1
+var num = "2" + "2"
+document.write("<br>","Q1: What is the value of num? Include quotation marks.")
+document.write("<br>","Ans:",num)
+
+// 2
+var message = ("Hello," + "Dolly")
+alert(message);
+
+// 3
+var message = ("33" + 3);
+alert(message)
+
+// 4
+var message = "Pakistan Zindabad"
+alert(message)
+
+// 5
+var number = ("7" * 4);
+alert(number)
+
+
+             // Chapter 9 "Prompts"
+document.write("<br>","<h3>Chapter 9 Prompts</h3>")
+
+// 1
+var userName = prompt("Enter first name")
+
+// 2
+var country =  prompt("Country?","chaina")
+
+// 3
+var yourName = prompt("Enter your name")
+
+// 4
+var message = prompt ("hello students","hello students")
+
+
+
 
 
 
